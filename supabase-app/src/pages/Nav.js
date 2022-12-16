@@ -7,9 +7,9 @@ import {
 
 import { Link, Outlet } from 'react-router-dom'
 
-export default function Home(){
+export default function Nav(){
     return(
-        <>
+    <>
       <Center
         bg='gray.600' 
         h='5vh' 
@@ -17,7 +17,7 @@ export default function Home(){
         color='whiteAlpha.800'
         justifyContent={'space-around'}>
           <HStack>
-            <Box p='5'><Link to='/'>Home</Link></Box>
+            <Box p='5'><Link to='/home'>Home</Link></Box>
             <Box p='5'><Link to='/blogs'>Blogs</Link></Box>
             <Box p='5'><Link to='/contact'>Contact</Link></Box>
           </HStack>
